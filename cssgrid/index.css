@@ -1,6 +1,8 @@
 .contenedor {
-    display: grid;
+    display: block;
     grid-template-rows: repeat(4, 1fr);
-    grid-gap: 20px;
+    max-width: fit-content;
+    max-height: auto;
+    grid-gap: 50px;
     font-size: medium;
 }
